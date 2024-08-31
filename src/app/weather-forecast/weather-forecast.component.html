@@ -1,0 +1,17 @@
+<div>
+    <input [(ngModel)]="city" placeholder="Enter city name" />
+    <button (click)="getForecast()">Get 5-Day Forecast</button>
+  
+    <div *ngIf="forecastData">
+      <h2>5-Day Forecast for {{ city }}</h2>
+      <div *ngFor="let day of forecastData.list">
+        <p>Date: {{ day.dt_txt }}</p>
+        <p>Temperature: {{ day.main.temp }} °C</p>
+        <p>Weather: {{ day.weather[0].description }}</p>
+        <p>Humidity: {{ day.main.humidity }}%</p>
+        <p>Wind Speed: {{ day.wind.speed }} m/s</p>
+        <hr />
+      </div>
+    </div>
+  </div>
+  
