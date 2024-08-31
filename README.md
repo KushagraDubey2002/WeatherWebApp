@@ -1,5 +1,6 @@
 # Weather Web App
-Overview
+Overview:
+
 The Weather Web App is a responsive application that provides real-time weather information, including current conditions, a 5-day forecast, and air quality data for a user-specified location. This project is built using ASP.NET Core Web API for the backend and Angular 16 for the frontend.
 
 Features
