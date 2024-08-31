@@ -24,7 +24,6 @@ API Key: Obtain an API key from OpenWeather and configure it in your project.
 Project Structure
 /WeatherApi: Contains the ASP.NET Core Web API backend.
 /WeatherApp: Contains the Angular frontend.
-/Docs: Documentation files.
 Usage
 Search by City: Enter a city name in the search bar to retrieve weather information.
 Search by Pincode: Use a pincode to get current weather data for that area.
